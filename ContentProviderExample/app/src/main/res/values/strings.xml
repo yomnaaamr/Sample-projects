@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ContentProviderExample</string>
+    <string name="show_definition">Show Author</string>
+    <string name="next_word">Next Book</string>
+</resources>

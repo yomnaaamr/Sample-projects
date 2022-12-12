@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Book Database</string>
+    <string name="unknown_author">Unknown</string>
+    <string name="empty_data">No Data.</string>
+    <string name="delete_all_entries">Delete ALl Books</string>
+    <string name="action_save">Sava</string>
+    <string name="action_delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="title_hint">title</string>
+    <string name="author">Author</string>
+    <string name="author_hint">author</string>
+    <string name="pages">pages</string>
+    <string name="number_of_pages">number of pages</string>
+    <string name="starts">Starts</string>
+    <string name="date">start date</string>
+    <string name="ends">Ends</string>
+    <string name="add_book">Add Book</string>
+    <string name="edit_book">Edit a book</string>
+    <string name="insertfailed">Insert Failed</string>
+    <string name="insertsuccess">Insert Success</string>
+    <string name="updatefailed">Update Failed</string>
+    <string name="updatesuccess">Update Success</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="delete_dialog_msg">Delete this pet?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <string name="editor_delete_pet_successful">Pet deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_pet_failed">Error with deleting pet</string>
+</resources>

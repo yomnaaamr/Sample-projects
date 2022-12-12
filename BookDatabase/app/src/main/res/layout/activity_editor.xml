@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity"
+    android:background="#f9f9f9"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/title"
+            style="@style/CategoryStyle"/>
+
+        <EditText
+            android:id="@+id/title"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/title_hint"
+            android:inputType="textCapWords"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/author"
+            style="@style/CategoryStyle"/>
+
+        <EditText
+            android:id="@+id/author"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/author_hint"
+            android:inputType="textCapWords"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/pages"
+            style="@style/CategoryStyle"/>
+
+        <EditText
+            android:id="@+id/page"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/number_of_pages"
+            android:inputType="textCapWords"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/starts"
+            style="@style/CategoryStyle"/>
+
+        <EditText
+            android:id="@+id/start_time"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/date"
+            android:inputType="textCapWords"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/ends"
+            style="@style/CategoryStyle"/>
+
+        <EditText
+            android:id="@+id/end_time"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/date"
+            android:inputType="textCapWords"/>
+    </LinearLayout>
+
+</LinearLayout>
